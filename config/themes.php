@@ -23,6 +23,12 @@ return [
             'name' => 'Velocity',
             'parent' => 'default'
         ],
+
+        'store' => [
+            'views_path' => 'resources/themes/store/views',
+            'assets_path' => 'public/themes/store/assets',
+            'name' => 'Store',
+        ],
     ],
 
     'admin-default' => 'default',
